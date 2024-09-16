@@ -157,16 +157,16 @@ During the lead qualification process, you can provide both a business phone num
     `CDS Parties (msdyn_parties)`| 1.0.0.2 | This is a new map added as part of this release.
     `Contacts V2 (msdyn_contactforparties)`| 1.0.0.6 | This is a new map added as part of this release.
     `Customers V3 (accounts)` | 1.0.0.5 |Removed `PartyNumber` and other party-related fields like name, personal details, postal address fields, and electronic contact address.
-    `Customer V3 (contacts)` | 1.0.0.5 | Removed `PartyNumber` and other party-related fields like name, personal details, postal address fields, and electronic contact address.
+    `Customers V3 (contacts)` | 1.0.0.5 | Removed `PartyNumber` and other party-related fields like name, personal details, postal address fields, and electronic contact address.
     `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Removed `PartyNumber` and other party-related fields like name, personal details, postal address fields, and electronic contact address.
-    `CDS Sales quotation headers (quotes)` | 1.0.0.7 | Replaced the contact person with `ContactforParty` reference.
+    `CDS Sales quotation header (quotes)` | 1.0.0.7 | Replaced the contact person with `ContactforParty` reference.
     `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Replaced the contact person with `ContactforParty` reference.
     `CDS Sales order headers (salesorders)` | 1.0.0.5 | Replaced the contact person with `ContactforParty` reference.
     `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | This is a new map added as part of this release.
     `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.2 | This is a new map added as part of this release.
     `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | This is a new map added as part of this release.
     `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | This is a new map added as part of this release.
-    `Complimentary Closings (msdyn_compliemntaryclosings)` | 1.0.0.0 | This is a new map added as part of this release.
+    `Complimentary closings (msdyn_complimentaryclosings)` | 1.0.0.0 | This is a new map added as part of this release.
     `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | This is a new map added as part of this release.
     `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | This is a new map added as part of this release.
     `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | This is a new map added as part of this release.
@@ -241,7 +241,7 @@ During the lead qualification process, you can provide both a business phone num
     [CDS sales quotation header](mapping-reference.md#215) | quotes
     [CDS sales order headers](mapping-reference.md#217) | salesorders
     [Sales invoice headers V2](mapping-reference.md#118) | invoices
-    [CDS Address roles](mapping-reference.md#301) | msdyn_addressroles
+    [CDS location roles](mapping-reference.md#301) | msdyn_addressroles
 
 > [!NOTE]
 > The `CDS Contacts V2 (contacts)` map is the map that you stopped in step 1. When you try to run other maps, these 2 maps may appear in the list of dependents. Don't run these maps.
